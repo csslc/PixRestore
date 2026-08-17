@@ -1,0 +1,40 @@
+base_config: configs/train.yaml
+
+output_dir: outputs/pixrestore_gan
+
+
+# Pixel DiT-S
+hidden_size: 384
+depth: 12
+num_heads: 6
+# # Pixel DiT-B
+# hidden_size: 768
+# depth: 12
+# num_heads: 12
+# # Pixel DiT-L
+# hidden_size: 1024
+# depth: 24
+# num_heads: 16
+# # Pixel DiT-XL
+# hidden_size: 1152
+# depth: 28
+# num_heads: 16
+encoder_type: dinov2s
+encoder_dim: 384
+encoder_layers: [1, 2, 4, 6, 8, 10]
+# encoder_type: dinov2b
+# encoder_dim: 768
+# encoder_layers: [1, 2, 4, 6, 8, 10]
+# encoder_type: dinov2l
+# encoder_dim: 1024
+# encoder_layers: [1, 4, 8, 12, 16, 20]
+
+use_dino_gan: true
+dino_gan_loss_weight: 0.5
+dino_gan_learning_rate: 1.0e-4
+dino_gan_real_label: 0.8
+dino_gan_hidden_ratio: 0.25
+dino_gan_max_hidden: 128
+
+# DINO-GAN is intended as a one-step finetuning stage.
+fixed_train_t: 1.0

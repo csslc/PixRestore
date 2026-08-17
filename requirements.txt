@@ -1,0 +1,10 @@
+accelerate>=0.31,<1.0
+diffusers>=0.30.3,<0.31
+einops>=0.7
+numpy>=1.23,<2
+Pillow>=9.5
+PyYAML>=6
+safetensors>=0.4
+timm>=0.9,<1.1
+tqdm>=4.65
+wandb>=0.15
