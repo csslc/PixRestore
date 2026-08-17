@@ -90,7 +90,7 @@ accelerate launch \
 
 The "--input" argument can be set to an LQ image, an LQ image folder or a Json file in the following format.
 
-```json
+```
 {"type": degradation, "data": dataset_name, "lq": "/path/to/input.png", "gt": "/path/to/target.png"}.
 ```
 
@@ -98,7 +98,7 @@ The "--input" argument can be set to an LQ image, an LQ image folder or a Json f
 #### Step1: Prepare training data
 Prepare the JSON file in the following format. Different Json files can be provided. During training, each file is sampled with the same sampling ratio.
 
-```json
+```
 {"lq": "/path/to/input.png", "gt": "/path/to/target.png"}.
 ```
 
