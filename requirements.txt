@@ -8,3 +8,4 @@ safetensors>=0.4
 timm>=0.9,<1.1
 tqdm>=4.65
 wandb>=0.15
+torch==2.4.0
