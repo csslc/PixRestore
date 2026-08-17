@@ -105,7 +105,7 @@ cond_strength_aelq_list: [5.0, 1.0]
 weak_cond_strength_aelq_list: [0.99, 1.0]
 cond_strength_aelq_test: 1.0
 cond_strength_venc: 1.0
-weak_cond_strength_venc: 0.0
+weak_cond_strength_venc: 1.0
 aug_noise: false
 use_time_shift: false
 time_shift_base_dimension: 4096
