@@ -138,7 +138,7 @@ The following are BibTeX references:
 @article{sun2026pixrestore,
   title={PixRestore: Unified Image Restoration via Pixel Diffusion Transformer},
   author={Sun, Lingchen and Wu, Rongyuan and Kong, Xiangtao and Zhao, Jixin and Yi, Qiaosi and Sun, Yujing and Liu, Shuaizheng and Zhang, Zhengqiang and Zhang, Lei},
-  journal={arXiv preprint arXiv: ---},
+  journal={arXiv preprint arXiv: https://arxiv.org/pdf/2608.16793},
   year={2026}
 }
 ```
