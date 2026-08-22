@@ -4,7 +4,7 @@
 <h2>PixRestore: Unified Image Restoration via Pixel Diffusion Transformer</h2>
 
 
-<a href='---'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://csslc.github.io/pixrestore-page/'><img src='https://img.shields.io/badge/Project page-blue'></a>
+<a href='https://arxiv.org/pdf/2608.16793'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://csslc.github.io/pixrestore-page/'><img src='https://img.shields.io/badge/Project page-blue'></a>
 
 
 [Lingchen Sun](https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=ZCDjTn8AAAAJ)<sup>1,2</sup>
