@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ## 🍭 Quick Inference
 #### Step 1: Download the pretrained models
-Download the PixRestore model from [`obox`](https://sbox.myoas.com/outpublish.html?code=A629ce4ac977548c3#view)(pwd: PixRestore817).
+Download the PixRestore model from [`obox`]( https://sbox.myoas.com/l/Ba05f09268ea6081a)(pwd: PixRestore824).
 
 DINOv2 is downloaded from Meta's official torch hub on first use. For offline
 machines, clone [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2)
